@@ -22,7 +22,7 @@ public class CumulativeSum {
 			int n = sc.nextInt();
 			sumCum(n);
 		} else {
-			System.out.println("Please! Enter a Intger Number.");
+			System.out.println("Please! Enter a Integer Number.");
 		}
 		sc.close();
 
