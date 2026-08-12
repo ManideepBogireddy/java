@@ -20,12 +20,12 @@ public class PerfectNumber {
 		System.out.print("Enter a number : ");
 		int n = sc.nextInt();
 		
-		boolean result = perfect(n);;
+		boolean result = perfect(n);
 		
 		if(result) {
-			System.out.println(""+n+" is Perfect number.");
+			System.out.println(n+" is Perfect number.");
 		} else {
-			System.out.println(""+n+" is not a perfect number");
+			System.out.println(n+" is not a perfect number");
 		}
 		
 		sc.close();
